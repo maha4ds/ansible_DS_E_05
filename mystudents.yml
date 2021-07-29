@@ -1,0 +1,25 @@
+---
+- mystudends: 
+  - name: deepak
+    phno: 888888888
+    address: 
+       doorNO: 535
+       streetno: 2
+       pincode: 500072
+  
+  - name: sai
+    phno:  777777777
+    address: 
+        doorNO: 535
+        streetno: 2
+        pincode: 500072
+
+
+  - name: vikas
+    phno: 766666688
+    address: 
+     doorNO: 535
+     streetno: 2
+     pincode: 500072
+
+  
