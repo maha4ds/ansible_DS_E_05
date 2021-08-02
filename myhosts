@@ -24,7 +24,3 @@
 
 
 
-[webservers:vars]
-key=value
-myubuntuwebpack=apache2
-myredhatwebpack=httpd
