@@ -20,3 +20,11 @@
 
 [myredhatservers]
 172.31.27.55
+
+
+
+
+[webservers:vars]
+key=value
+myubuntuwebpack=apache22222
+myredhatwebpack=httpd11111
