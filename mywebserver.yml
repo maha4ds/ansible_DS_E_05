@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.18.165
+- hosts: webservers
   become: yes
   tasks:
   - name: install webserver on ubuntu
