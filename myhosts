@@ -12,3 +12,11 @@
 [dbservers]
 172.31.18.24
 172.31.27.34
+
+
+[myubuntuservers]
+172.31.18.165
+
+
+[myredhatservers]
+172.31.27.55
