@@ -1,0 +1,5 @@
+---
+- name: i want to create a configfile
+  file: 
+    path: /home/ubuntu/configfile.cfg
+    state: touch
