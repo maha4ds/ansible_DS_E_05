@@ -1,0 +1,10 @@
+---
+- hosts: 172.31.18.165
+  become: yes
+  tasks:
+  - name: create a test file on ansible node side
+    file:
+      path: /home/ubuntu/testfile.txt
+      state: touch
+
+ 
