@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - name: i want to execute dirt linux command
-    command: apt-get install apache233 -y
+    command: apt-get install apache2 -y
     register: myresult
   - name: disply myresult
     debug:
