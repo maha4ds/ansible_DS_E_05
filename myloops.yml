@@ -1,0 +1,12 @@
+---
+- hosts: 172.31.18.165
+  become: yes
+  tasks:
+  - name: install git,tree,wget ..........etc
+    apt:
+      name: "{{ item }}"
+      state:  present
+    loops:
+      - git
+      - tree
+      - wget
