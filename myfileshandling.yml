@@ -13,4 +13,7 @@
     service:
       name: apache2
       state: restarted
-
+  - name: copy myindexfile into ansible nodes side
+    template:
+        src: myindex.j2
+        dest: /var/www/html/index.html
