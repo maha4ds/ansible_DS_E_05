@@ -10,3 +10,4 @@
     shell: /bin/false
     group: tomcat
     home: /opt/tomcat
+    state: present
