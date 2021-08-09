@@ -6,3 +6,7 @@
 - include_tasks: Permissions.yml
 - include_tasks: tomservicefile.yml
 - include_tasks: starttomcat.yml
+- include_tasks: TomcatWebManagement.yml
+- include_tasks: restarttomcat.yml
+- include_tasks: deployjavapp.yml
+- include_tasks: restarttomcat.yml
